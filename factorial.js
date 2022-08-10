@@ -12,3 +12,5 @@ function factorialRec(n) {
   }
   return n * factorialRec(n - 1);
 }
+
+module.exports = { factorial, factorialRec };
